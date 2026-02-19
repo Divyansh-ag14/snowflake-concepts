@@ -3,8 +3,8 @@ create or replace storage integration s3_init
   TYPE = EXTERNAL_STAGE
   STORAGE_PROVIDER = S3
   ENABLED = TRUE 
-  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::571970562198:role/snowflake-s3-conncetion'
-  STORAGE_ALLOWED_LOCATIONS = ('s3://snowfllake-practice')
+  STORAGE_AWS_ROLE_ARN = 'your-aws-role-arn'
+  STORAGE_ALLOWED_LOCATIONS = ('your-s3-bucket-path')
    COMMENT = 'Creating connection to S3' 
 
 
